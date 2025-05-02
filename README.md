@@ -1,6 +1,6 @@
 # DDAM-Toolshare-Project
 
-cd modbile-app
+cd mobile-app
 npm start
 
 
