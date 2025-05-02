@@ -54,3 +54,19 @@ class MaintenanceRecord(models.Model):
     parts_replaced = models.TextField(blank=True, null=True)
     notes = models.TextField(blank=True, null=True)
     status = models.CharField(max_length=28)
+
+
+
+class Notification(models.Model):
+    TOOL = 'TOOL'
+    MAINTENANCE = 'MAINTENANCE'
+    TYPE_CHOICES = [
+        (TOOL, 'Tool'),
+        (MAINTENANCE, 'Maintenance'),
+    ]
+
+    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
+    message = models.TextField()
+    time = models.CharField(max_length=20)
+    date = models.CharField(max_length=20)
+    read = models.BooleanField(default=False)

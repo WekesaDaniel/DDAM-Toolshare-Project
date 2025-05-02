@@ -1,0 +1,722 @@
+[
+  {
+    "model": "tools.tool",
+    "pk": 1,
+    "fields": {
+      "barcode": "BARCODE0001",
+      "name": "Tool 1",
+      "category_id": 3,
+      "description": "This is tool number 1",
+      "brand": "Brand1",
+      "model": "Model1",
+      "serial_number": "SN00001",
+      "purchase_date": "2020-06-18",
+      "purchase_cost": 217.2,
+      "replacement_value": 624.75,
+      "current_condition": "New",
+      "status": "Available",
+      "image": "sample-images/tool1.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 2,
+    "fields": {
+      "barcode": "BARCODE0002",
+      "name": "Tool 2",
+      "category_id": 3,
+      "description": "This is tool number 2",
+      "brand": "Brand2",
+      "model": "Model2",
+      "serial_number": "SN00002",
+      "purchase_date": "2023-05-15",
+      "purchase_cost": 124.52,
+      "replacement_value": 447.39,
+      "current_condition": "New",
+      "status": "Available",
+      "image": "sample-images/tool2.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 3,
+    "fields": {
+      "barcode": "BARCODE0003",
+      "name": "Tool 3",
+      "category_id": 4,
+      "description": "This is tool number 3",
+      "brand": "Brand3",
+      "model": "Model3",
+      "serial_number": "SN00003",
+      "purchase_date": "2021-07-16",
+      "purchase_cost": 353.64,
+      "replacement_value": 746.24,
+      "current_condition": "Fair",
+      "status": "Borrowed",
+      "image": "sample-images/tool3.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 4,
+    "fields": {
+      "barcode": "BARCODE0004",
+      "name": "Tool 4",
+      "category_id": 3,
+      "description": "This is tool number 4",
+      "brand": "Brand4",
+      "model": "Model4",
+      "serial_number": "SN00004",
+      "purchase_date": "2023-04-11",
+      "purchase_cost": 327.16,
+      "replacement_value": 126.29,
+      "current_condition": "Fair",
+      "status": "Borrowed",
+      "image": "sample-images/tool4.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 5,
+    "fields": {
+      "barcode": "BARCODE0005",
+      "name": "Tool 5",
+      "category_id": 3,
+      "description": "This is tool number 5",
+      "brand": "Brand5",
+      "model": "Model5",
+      "serial_number": "SN00005",
+      "purchase_date": "2023-04-22",
+      "purchase_cost": 307.93,
+      "replacement_value": 939.23,
+      "current_condition": "New",
+      "status": "Borrowed",
+      "image": "sample-images/tool5.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 6,
+    "fields": {
+      "barcode": "BARCODE0006",
+      "name": "Tool 6",
+      "category_id": 2,
+      "description": "This is tool number 6",
+      "brand": "Brand6",
+      "model": "Model6",
+      "serial_number": "SN00006",
+      "purchase_date": "2023-02-05",
+      "purchase_cost": 275.08,
+      "replacement_value": 174.09,
+      "current_condition": "Fair",
+      "status": "Borrowed",
+      "image": "sample-images/tool6.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 7,
+    "fields": {
+      "barcode": "BARCODE0007",
+      "name": "Tool 7",
+      "category_id": 1,
+      "description": "This is tool number 7",
+      "brand": "Brand7",
+      "model": "Model7",
+      "serial_number": "SN00007",
+      "purchase_date": "2022-12-06",
+      "purchase_cost": 115.57,
+      "replacement_value": 573.94,
+      "current_condition": "Fair",
+      "status": "Under Maintenance",
+      "image": "sample-images/tool7.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 8,
+    "fields": {
+      "barcode": "BARCODE0008",
+      "name": "Tool 8",
+      "category_id": 5,
+      "description": "This is tool number 8",
+      "brand": "Brand8",
+      "model": "Model8",
+      "serial_number": "SN00008",
+      "purchase_date": "2020-12-19",
+      "purchase_cost": 161.93,
+      "replacement_value": 379.29,
+      "current_condition": "Good",
+      "status": "Available",
+      "image": "sample-images/tool8.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 9,
+    "fields": {
+      "barcode": "BARCODE0009",
+      "name": "Tool 9",
+      "category_id": 2,
+      "description": "This is tool number 9",
+      "brand": "Brand9",
+      "model": "Model9",
+      "serial_number": "SN00009",
+      "purchase_date": "2023-03-14",
+      "purchase_cost": 113.6,
+      "replacement_value": 298.39,
+      "current_condition": "Fair",
+      "status": "Borrowed",
+      "image": "sample-images/tool9.jpg"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": 10,
+    "fields": {
+      "barcode": "BARCODE0010",
+      "name": "Tool 10",
+      "category_id": 3,
+      "description": "This is tool number 10",
+      "brand": "Brand10",
+      "model": "Model10",
+      "serial_number": "SN00010",
+      "purchase_date": "2023-09-24",
+      "purchase_cost": 82.87,
+      "replacement_value": 683.46,
+      "current_condition": "New",
+      "status": "Under Maintenance",
+      "image": "sample-images/tool10.jpg"
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 1,
+    "fields": {
+      "first_name": "First1",
+      "last_name": "Last1",
+      "email": "user1@example.com",
+      "phone": "0712345601",
+      "registration_date": "2021-04-02",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 2,
+    "fields": {
+      "first_name": "First2",
+      "last_name": "Last2",
+      "email": "user2@example.com",
+      "phone": "0712345602",
+      "registration_date": "2022-02-25",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 3,
+    "fields": {
+      "first_name": "First3",
+      "last_name": "Last3",
+      "email": "user3@example.com",
+      "phone": "0712345603",
+      "registration_date": "2020-08-27",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 4,
+    "fields": {
+      "first_name": "First4",
+      "last_name": "Last4",
+      "email": "user4@example.com",
+      "phone": "0712345604",
+      "registration_date": "2022-07-05",
+      "is_active": false
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 5,
+    "fields": {
+      "first_name": "First5",
+      "last_name": "Last5",
+      "email": "user5@example.com",
+      "phone": "0712345605",
+      "registration_date": "2022-10-06",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 6,
+    "fields": {
+      "first_name": "First6",
+      "last_name": "Last6",
+      "email": "user6@example.com",
+      "phone": "0712345606",
+      "registration_date": "2022-01-03",
+      "is_active": false
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 7,
+    "fields": {
+      "first_name": "First7",
+      "last_name": "Last7",
+      "email": "user7@example.com",
+      "phone": "0712345607",
+      "registration_date": "2023-04-25",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 8,
+    "fields": {
+      "first_name": "First8",
+      "last_name": "Last8",
+      "email": "user8@example.com",
+      "phone": "0712345608",
+      "registration_date": "2021-09-18",
+      "is_active": false
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 9,
+    "fields": {
+      "first_name": "First9",
+      "last_name": "Last9",
+      "email": "user9@example.com",
+      "phone": "0712345609",
+      "registration_date": "2023-06-10",
+      "is_active": true
+    }
+  },
+  {
+    "model": "tools.member",
+    "pk": 10,
+    "fields": {
+      "first_name": "First10",
+      "last_name": "Last10",
+      "email": "user10@example.com",
+      "phone": "0712345610",
+      "registration_date": "2022-06-20",
+      "is_active": false
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 1,
+    "fields": {
+      "tool": 7,
+      "member": 8,
+      "checkout_date": "2025-04-19T04:35:32",
+      "due_date": "2025-04-26T04:35:32",
+      "return_date": "2025-04-21T04:35:32",
+      "condition_before": "Fair",
+      "condition_after": "Good",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 2,
+    "fields": {
+      "tool": 3,
+      "member": 6,
+      "checkout_date": "2025-03-25T04:35:32",
+      "due_date": "2025-04-01T04:35:32",
+      "return_date": null,
+      "condition_before": "Good",
+      "condition_after": null,
+      "notes": ""
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 3,
+    "fields": {
+      "tool": 5,
+      "member": 2,
+      "checkout_date": "2025-01-25T04:35:32",
+      "due_date": "2025-02-01T04:35:32",
+      "return_date": null,
+      "condition_before": "Good",
+      "condition_after": null,
+      "notes": ""
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 4,
+    "fields": {
+      "tool": 3,
+      "member": 10,
+      "checkout_date": "2025-02-28T04:35:32",
+      "due_date": "2025-03-07T04:35:32",
+      "return_date": null,
+      "condition_before": "Poor",
+      "condition_after": null,
+      "notes": ""
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 5,
+    "fields": {
+      "tool": 5,
+      "member": 8,
+      "checkout_date": "2025-02-26T04:35:32",
+      "due_date": "2025-03-05T04:35:32",
+      "return_date": "2025-03-01T04:35:32",
+      "condition_before": "Fair",
+      "condition_after": "Good",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 6,
+    "fields": {
+      "tool": 1,
+      "member": 2,
+      "checkout_date": "2025-03-13T04:35:32",
+      "due_date": "2025-03-20T04:35:32",
+      "return_date": "2025-03-17T04:35:32",
+      "condition_before": "New",
+      "condition_after": "New",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 7,
+    "fields": {
+      "tool": 2,
+      "member": 7,
+      "checkout_date": "2025-04-06T04:35:32",
+      "due_date": "2025-04-13T04:35:32",
+      "return_date": "2025-04-09T04:35:32",
+      "condition_before": "Poor",
+      "condition_after": "New",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 8,
+    "fields": {
+      "tool": 5,
+      "member": 7,
+      "checkout_date": "2025-02-26T04:35:32",
+      "due_date": "2025-03-05T04:35:32",
+      "return_date": "2025-03-04T04:35:32",
+      "condition_before": "New",
+      "condition_after": "Poor",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 9,
+    "fields": {
+      "tool": 7,
+      "member": 8,
+      "checkout_date": "2025-02-02T04:35:32",
+      "due_date": "2025-02-09T04:35:32",
+      "return_date": null,
+      "condition_before": "Poor",
+      "condition_after": null,
+      "notes": ""
+    }
+  },
+  {
+    "model": "tools.borrowingtransaction",
+    "pk": 10,
+    "fields": {
+      "tool": 3,
+      "member": 5,
+      "checkout_date": "2025-04-23T04:35:32",
+      "due_date": "2025-04-30T04:35:32",
+      "return_date": "2025-05-02T04:35:32",
+      "condition_before": "Fair",
+      "condition_after": "Good",
+      "notes": "Handled carefully"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 1,
+    "fields": {
+      "tool": 4,
+      "schedule_id": 2,
+      "maintenance_date": "2020-11-08",
+      "maintenance_type": "Regular",
+      "description": "Maintenance details for tool 4",
+      "performed_by": "Technician 1",
+      "cost": 174.02,
+      "parts_replaced": "None",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 2,
+    "fields": {
+      "tool": 7,
+      "schedule_id": 1,
+      "maintenance_date": "2023-09-07",
+      "maintenance_type": "Emergency",
+      "description": "Maintenance details for tool 7",
+      "performed_by": "Technician 2",
+      "cost": 159.42,
+      "parts_replaced": "Replaced handle",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 3,
+    "fields": {
+      "tool": 10,
+      "schedule_id": 3,
+      "maintenance_date": "2023-06-24",
+      "maintenance_type": "Regular",
+      "description": "Maintenance details for tool 10",
+      "performed_by": "Technician 3",
+      "cost": 88.48,
+      "parts_replaced": "None",
+      "notes": "All OK",
+      "status": "Pending"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 4,
+    "fields": {
+      "tool": 1,
+      "schedule_id": 3,
+      "maintenance_date": "2022-02-22",
+      "maintenance_type": "Emergency",
+      "description": "Maintenance details for tool 1",
+      "performed_by": "Technician 4",
+      "cost": 41.36,
+      "parts_replaced": "Replaced handle",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 5,
+    "fields": {
+      "tool": 10,
+      "schedule_id": 3,
+      "maintenance_date": "2023-07-15",
+      "maintenance_type": "Regular",
+      "description": "Maintenance details for tool 10",
+      "performed_by": "Technician 5",
+      "cost": 115.42,
+      "parts_replaced": "None",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 6,
+    "fields": {
+      "tool": 3,
+      "schedule_id": 1,
+      "maintenance_date": "2023-11-15",
+      "maintenance_type": "Emergency",
+      "description": "Maintenance details for tool 3",
+      "performed_by": "Technician 6",
+      "cost": 91.15,
+      "parts_replaced": "Replaced handle",
+      "notes": "All OK",
+      "status": "Pending"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 7,
+    "fields": {
+      "tool": 4,
+      "schedule_id": 2,
+      "maintenance_date": "2022-03-29",
+      "maintenance_type": "Regular",
+      "description": "Maintenance details for tool 4",
+      "performed_by": "Technician 7",
+      "cost": 148.85,
+      "parts_replaced": "None",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 8,
+    "fields": {
+      "tool": 5,
+      "schedule_id": 1,
+      "maintenance_date": "2021-08-20",
+      "maintenance_type": "Emergency",
+      "description": "Maintenance details for tool 5",
+      "performed_by": "Technician 8",
+      "cost": 193.12,
+      "parts_replaced": "Replaced handle",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 9,
+    "fields": {
+      "tool": 8,
+      "schedule_id": 2,
+      "maintenance_date": "2022-03-18",
+      "maintenance_type": "Regular",
+      "description": "Maintenance details for tool 8",
+      "performed_by": "Technician 9",
+      "cost": 32.93,
+      "parts_replaced": "None",
+      "notes": "All OK",
+      "status": "Pending"
+    }
+  },
+  {
+    "model": "tools.maintenancerecord",
+    "pk": 10,
+    "fields": {
+      "tool": 7,
+      "schedule_id": 3,
+      "maintenance_date": "2021-02-19",
+      "maintenance_type": "Emergency",
+      "description": "Maintenance details for tool 7",
+      "performed_by": "Technician 10",
+      "cost": 173.41,
+      "parts_replaced": "Replaced handle",
+      "notes": "All OK",
+      "status": "Completed"
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 1,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 1",
+      "time": "2:35 PM",
+      "date": "2022-08-30",
+      "read": false
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 2,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 2",
+      "time": "1:55 PM",
+      "date": "2023-12-09",
+      "read": true
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 3,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 3",
+      "time": "4:46 PM",
+      "date": "2023-12-18",
+      "read": true
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 4,
+    "fields": {
+      "type": "TOOL",
+      "message": "Notification message 4",
+      "time": "12:11 AM",
+      "date": "2023-11-03",
+      "read": true
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 5,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 5",
+      "time": "8:31 PM",
+      "date": "2020-01-19",
+      "read": false
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 6,
+    "fields": {
+      "type": "TOOL",
+      "message": "Notification message 6",
+      "time": "2:31 PM",
+      "date": "2020-07-23",
+      "read": true
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 7,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 7",
+      "time": "12:26 PM",
+      "date": "2023-11-01",
+      "read": false
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 8,
+    "fields": {
+      "type": "TOOL",
+      "message": "Notification message 8",
+      "time": "11:30 PM",
+      "date": "2021-02-24",
+      "read": false
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 9,
+    "fields": {
+      "type": "TOOL",
+      "message": "Notification message 9",
+      "time": "9:56 PM",
+      "date": "2023-05-12",
+      "read": false
+    }
+  },
+  {
+    "model": "tools.notification",
+    "pk": 10,
+    "fields": {
+      "type": "MAINTENANCE",
+      "message": "Notification message 10",
+      "time": "3:55 PM",
+      "date": "2020-11-02",
+      "read": true
+    }
+  }
+]

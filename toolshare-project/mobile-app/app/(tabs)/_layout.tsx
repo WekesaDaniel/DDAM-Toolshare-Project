@@ -1,31 +1,23 @@
-import { Tabs, useNavigation } from 'expo-router';
+import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native';
-import { useEffect } from 'react';
 
 export default function TabLayout() {
-  const navigation = useNavigation();
-
-  useEffect(() => {
-    navigation.setOptions({
-      headerRight: () => (
-        <TouchableOpacity
-          onPress={() => navigation.navigate('notifications')}
-          style={{ marginRight: 15 }}
-        >
-          <Ionicons name="notifications-outline" size={24} color="black" />
-        </TouchableOpacity>
-      ),
-    });
-  }, [navigation]);
-
   return (
     <Tabs
-      screenOptions={({ route }) => ({
+      screenOptions={({ route, navigation }) => ({
         tabBarActiveTintColor: 'blue',
         tabBarInactiveTintColor: 'gray',
+        headerRight: () => (
+          <TouchableOpacity
+            onPress={() => navigation.navigate('notifications')}
+            style={{ marginRight: 15 }}
+          >
+            <Ionicons name="notifications-outline" size={24} color="black" />
+          </TouchableOpacity>
+        ),
         tabBarIcon: ({ focused, color, size }) => {
-          let iconName = 'ellipse';
+          let iconName: keyof typeof Ionicons.glyphMap = 'ellipse';
 
           switch (route.name) {
             case 'index':

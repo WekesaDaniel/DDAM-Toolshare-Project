@@ -91,8 +91,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'toolshare_db',
-        'USER': 'your_postgres_user',
-        'PASSWORD': 'your_postgres_password',
+        'USER': 'karimutech',
+        'PASSWORD': 'karimutech254',
         'HOST': 'localhost',
         'PORT': '5432',
     }

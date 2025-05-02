@@ -1,10 +1,10 @@
 from rest_framework import serializers
-from .models import Tool, Member, BorrowingTransaction, MaintenanceRecord
+from .models import *
 
 class ToolSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tool
-        fields = '__all__'
+        fields = ['id', 'name', 'brand', 'model', 'image']
 
 class MemberSerializer(serializers.ModelSerializer):
     class Meta:
@@ -17,7 +17,15 @@ class BorrowingTransactionSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class MaintenanceRecordSerializer(serializers.ModelSerializer):
+    tool = ToolSerializer()
+
     class Meta:
         model = MaintenanceRecord
         fields = '__all__'
 
+
+
+class NotificationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Notification
+        fields = '__all__'
