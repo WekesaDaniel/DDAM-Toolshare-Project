@@ -2,6 +2,7 @@
 
 cd mobile-app
 npm start
+ctrl+click the localhost link
 
 
 cd backend
